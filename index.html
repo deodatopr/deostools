@@ -19,14 +19,18 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "jquery.musemenu.js", "require.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "jquery.musemenu.js", "jquery.museresponsive.js", "require.js", "index.css"], "outOfDate":[]};
 </script>
   
   <link rel="shortcut icon" href="images/index-favicon.ico?crc=57470011"/>
   <title>[ DEO's TOOLS ]</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=443350757"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=323646434" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=501275218" id="pagesheet"/>
+  <!-- IE-only CSS -->
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=267854578" id="nomq_pagesheet"/>
+  <![endif]-->
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -43,292 +47,497 @@ body { overflow: overlay; }
  </head>
  <body>
 
-  <div class="clearfix borderbox" id="page"><!-- column -->
-   <div class="clearfix colelem" id="pu52500"><!-- group -->
-    <div class="browser_width grpelem" id="u52500-bw">
-     <div id="u52500"><!-- group -->
-      <div class="clearfix" id="u52500_align_to_page">
-       <div class="clearfix grpelem" id="u44892"><!-- group -->
-        <div class="grpelem" id="u52514"><!-- simple frame --></div>
-        <img class="grpelem" id="u11444-8" alt="DEO's TOOLs" width="550" height="75" src="images/u11444-8.png?crc=4039779438"/><!-- rasterized frame -->
-        <div class="grpelem" id="u52403"><!-- simple frame --></div>
+  <div class="breakpoint active" id="bp_infinity" data-min-width="1281"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox" id="page"><!-- column -->
+    <div class="clearfix colelem" id="pu52500"><!-- group -->
+     <div class="browser_width grpelem" id="u52500-bw">
+      <div id="u52500"><!-- group -->
+       <div class="clearfix" id="u52500_align_to_page">
+        <div class="clearfix grpelem" id="u44892"><!-- group -->
+         <div class="grpelem shared_content" id="u52514" data-content-guid="u52514_content"><!-- simple frame --></div>
+         <img class="grpelem temp_no_img_src" id="u11444-8" alt="DEO's TOOLs" width="550" height="75" data-orig-src="images/u11444-8.png?crc=4039779438" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+         <div class="grpelem shared_content" id="u52403" data-content-guid="u52403_content"><!-- simple frame --></div>
+        </div>
        </div>
       </div>
      </div>
-    </div>
-    <div class="browser_width grpelem" id="u1635-bw">
-     <div id="u1635"><!-- simple frame --></div>
-    </div>
-    <div class="clip_frame grpelem" id="u46867"><!-- image -->
-     <img class="block" id="u46867_img" src="images/cube_games_tools.png?crc=255680446" alt="" width="800" height="800"/>
-    </div>
-   </div>
-   <div class="clearfix colelem" id="pu2098"><!-- group -->
-    <div class="browser_width grpelem" id="u2098-bw">
-     <div id="u2098"><!-- simple frame --></div>
-    </div>
-    <div class="browser_width grpelem" id="u48228-bw">
-     <div id="u48228"><!-- simple frame --></div>
-    </div>
-    <div class="browser_width grpelem" id="u52463-bw">
-     <div id="u52463"><!-- simple frame --></div>
-    </div>
-    <div class="browser_width grpelem" id="u52475-bw">
-     <div id="u52475"><!-- simple frame --></div>
-    </div>
-    <div class="browser_width grpelem" id="u52481-bw">
-     <div class="gradient" id="u52481"><!-- simple frame --></div>
-    </div>
-    <div class="browser_width grpelem" id="u52457-bw">
-     <div id="u52457"><!-- simple frame --></div>
-    </div>
-    <div class="clearfix grpelem" id="u52754"><!-- column -->
-     <div class="clearfix colelem" id="pmenuu47709"><!-- group -->
-      <nav class="MenuBar Btn-style-3 clearfix grpelem" id="menuu47709"><!-- horizontal box -->
-       <div class="MenuItemContainer clearfix grpelem" id="u47710"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners Btn-Style-1 clearfix colelem" id="u47711" href="https://drive.google.com/drive/folders/1V9dQwIbLWNVZhw-EKstvbXyZkBDs6GHU?usp=sharing" target="_blank"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u47713-4"><!-- content --><p id="u47713-2">GET - 3D MODEL &amp; SCENES</p></div></a>
-       </div>
-      </nav>
-      <div class="clip_frame grpelem" id="u52544"><!-- image -->
-       <img class="block" id="u52544_img" src="images/download.png?crc=248813801" alt="" width="41" height="41"/>
-      </div>
+     <div class="browser_width grpelem shared_content" id="u1635-bw" data-content-guid="u1635-bw_content">
+      <div id="u1635"><!-- simple frame --></div>
      </div>
-     <div class="shadow rounded-corners clearfix colelem" id="u47717"><!-- column -->
-      <div class="clearfix colelem" id="u47718-4"><!-- content -->
-       <p>3DEO's VIEWER</p>
-      </div>
-      <div class="colelem" id="u47700"><!-- simple frame --></div>
-      <div class="clearfix colelem" id="u47699-11"><!-- content -->
-       <p id="u47699-2">It is a standalone app tool with a very small disk size and no installation required.</p>
-       <p id="u47699-3">&nbsp;</p>
-       <p id="u47699-5">The purpose is to allow users to visualize 3D models before they are incorporated into a video game production, and is even developed to support meshes with a high poly count like photogrammetry scenes.</p>
-       <p id="u47699-6">&nbsp;</p>
-       <p id="u47699-8">&nbsp;It enables the viewing of content such as models, textures, lights, cameras, and visual effects, similar to what is done in a game engine.</p>
-       <p id="u47699-9">&nbsp;</p>
-      </div>
-      <div class="clearfix colelem" id="pmenuu47701"><!-- group -->
-       <nav class="MenuBar Btn-Style-2 rounded-corners clearfix grpelem" id="menuu47701"><!-- horizontal box -->
-        <div class="MenuItemContainer clearfix grpelem" id="u47702"><!-- vertical box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem" id="u47703" href="https://deodatopr.github.io/deostools/Tools/3DeoViewer.zip"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u47706-4"><!-- content --><p>WIN</p></div></a>
+     <div class="clip_frame grpelem shared_content" id="u46867" data-content-guid="u46867_content"><!-- image -->
+      <img class="block temp_no_img_src" id="u46867_img" data-orig-src="images/cube_games_tools.png?crc=255680446" alt="" width="800" height="800" src="images/blank.gif?crc=4208392903"/>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu2098"><!-- group -->
+     <div class="browser_width grpelem shared_content" id="u2098-bw" data-content-guid="u2098-bw_content">
+      <div id="u2098"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem shared_content" id="u48228-bw" data-content-guid="u48228-bw_content">
+      <div id="u48228"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem shared_content" id="u52463-bw" data-content-guid="u52463-bw_content">
+      <div id="u52463"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem shared_content" id="u52475-bw" data-content-guid="u52475-bw_content">
+      <div id="u52475"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem shared_content" id="u52481-bw" data-content-guid="u52481-bw_content">
+      <div class="gradient" id="u52481"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem shared_content" id="u52457-bw" data-content-guid="u52457-bw_content">
+      <div id="u52457"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem shared_content" id="u53000-bw" data-content-guid="u53000-bw_content">
+      <div id="u53000"><!-- simple frame --></div>
+     </div>
+     <div class="clearfix grpelem" id="u52754"><!-- column -->
+      <div class="clearfix colelem" id="pmenuu47709"><!-- group -->
+       <nav class="MenuBar Btn-style-3 clearfix grpelem" id="menuu47709"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem" id="u47710"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners Btn-Style-1 clearfix colelem" id="u47711" href="https://drive.google.com/drive/folders/1V9dQwIbLWNVZhw-EKstvbXyZkBDs6GHU?usp=sharing" target="_blank"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u47713-4"><!-- content --><p id="u47713-2" class="shared_content" data-content-guid="u47713-2_content">GET - 3D MODEL &amp; SCENES</p></div></a>
         </div>
        </nav>
-       <nav class="MenuBar clearfix grpelem" id="menuu52226"><!-- horizontal box -->
-        <div class="MenuItemContainer clearfix grpelem" id="u52227"><!-- vertical box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem" id="u52228" href="https://deodatopr.github.io/deostools/Tools/3DeoViewerDoc.pdf" target="_blank"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u52230-4"><!-- content --><p>PDF DOC</p></div></a>
-        </div>
-       </nav>
+       <div class="clip_frame grpelem shared_content" id="u52544" data-content-guid="u52544_content"><!-- image -->
+        <img class="block temp_no_img_src" id="u52544_img" data-orig-src="images/download.png?crc=248813801" alt="" width="41" height="41" src="images/blank.gif?crc=4208392903"/>
+       </div>
       </div>
-     </div>
-     <div class="clearfix colelem" id="pmenuu51750"><!-- group -->
-      <nav class="MenuBar Btn-style-3 rounded-corners clearfix grpelem" id="menuu51750"><!-- horizontal box -->
-       <div class="MenuItemContainer clearfix grpelem" id="u51751"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 clearfix colelem" id="u51752" href="https://www.youtube.com/watch?v=uowv-ltUEEQ" target="_blank"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u51755-4"><!-- content --><p id="u51755-2">WATCH DEMO</p></div></a>
+      <div class="shadow rounded-corners clearfix colelem" id="u47717"><!-- column -->
+       <div class="clearfix colelem shared_content" id="u47718-4" data-content-guid="u47718-4_content"><!-- content -->
+        <p>3DEO's VIEWER</p>
        </div>
-      </nav>
-      <div class="clip_frame grpelem" id="u52066"><!-- image -->
-       <img class="block" id="u52066_img" src="images/youtube.png?crc=427528602" alt="" width="41" height="41"/>
-      </div>
-     </div>
-    </div>
-    <div class="clearfix grpelem" id="u52769"><!-- column -->
-     <div class="clearfix colelem" id="pmenuu1246"><!-- group -->
-      <nav class="MenuBar Btn-Style-2 clearfix grpelem" id="menuu1246"><!-- horizontal box -->
-       <div class="MenuItemContainer clearfix grpelem" id="u1247"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem" id="u1250" href="https://www.blender.org/download/" target="_blank"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u1253-4"><!-- content --><p>GET - BLENDER</p></div></a>
+       <div class="colelem shared_content" id="u47700" data-content-guid="u47700_content"><!-- simple frame --></div>
+       <div class="clearfix colelem shared_content" id="u47699-11" data-content-guid="u47699-11_content"><!-- content -->
+        <p id="u47699-2">It is a standalone app tool with a very small disk size and no installation required.</p>
+        <p id="u47699-3">&nbsp;</p>
+        <p id="u47699-5">The purpose is to allow users to visualize 3D models before they are incorporated into a video game production, and is even developed to support meshes with a high poly count like photogrammetry scenes.</p>
+        <p id="u47699-6">&nbsp;</p>
+        <p id="u47699-8">&nbsp;It enables the viewing of content such as models, textures, lights, cameras, and visual effects, similar to what is done in a game engine.</p>
+        <p id="u47699-9">&nbsp;</p>
        </div>
-      </nav>
-      <div class="clip_frame grpelem" id="u52659"><!-- image -->
-       <img class="block" id="u52659_img" src="images/download.png?crc=248813801" alt="" width="41" height="41"/>
-      </div>
-     </div>
-     <div class="shadow rounded-corners clearfix colelem" id="u1014"><!-- column -->
-      <div class="position_content" id="u1014_position_content">
-       <div class="clearfix colelem" id="u1071-4"><!-- content -->
-        <p>DEO's BLENDER TOOLS</p>
-       </div>
-       <div class="colelem" id="u1067"><!-- simple frame --></div>
-       <div class="clearfix colelem" id="u1079-14"><!-- content -->
-        <p id="u1079-2">A module to bake, texturing, export maps and more, similar to using&nbsp; Substance, also to create a smooth transition from other 3D software:</p>
-        <p id="u1079-3">&nbsp;</p>
-        <ul class="list0 nls-None" id="u1079-12">
-         <li id="u1079-5">Custom Layouts.</li>
-         <li id="u1079-7">Custom Shortcuts.</li>
-         <li id="u1079-9">Custom Settings.</li>
-         <li id="u1079-11">Useful Free Add-ons.</li>
-        </ul>
-       </div>
-       <div class="clearfix colelem" id="pmenuu1203"><!-- group -->
-        <nav class="MenuBar Btn-Style-2 rounded-corners clearfix grpelem" id="menuu1203"><!-- horizontal box -->
-         <div class="MenuItemContainer clearfix grpelem" id="u1204"><!-- vertical box -->
-          <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem" id="u1205" href="https://deodatopr.github.io/deostools/Tools/Deos_Blender_Tool.exe"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u1206-4"><!-- content --><p>WIN</p></div></a>
+       <div class="clearfix colelem" id="pmenuu47701"><!-- group -->
+        <nav class="MenuBar Btn-Style-2 rounded-corners clearfix grpelem" id="menuu47701"><!-- horizontal box -->
+         <div class="MenuItemContainer clearfix grpelem" id="u47702"><!-- vertical box -->
+          <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem" id="u47703" href="https://deodatopr.github.io/deostools/Tools/3DeoViewer.zip"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u47706-4"><!-- content --><p class="shared_content" data-content-guid="u47706-4_0_content">WIN</p></div></a>
          </div>
         </nav>
-        <nav class="MenuBar rounded-corners clearfix grpelem" id="menuu1195"><!-- horizontal box -->
-         <div class="MenuItemContainer clearfix grpelem" id="u1196"><!-- vertical box -->
-          <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix colelem" id="u1199" href="https://deodatopr.github.io/deostools/Tools/Deos_Blender_Tool.zip"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u1201-4"><!-- content --><p>MAC</p></div></a>
+        <nav class="MenuBar clearfix grpelem" id="menuu52226"><!-- horizontal box -->
+         <div class="MenuItemContainer clearfix grpelem" id="u52227"><!-- vertical box -->
+          <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem" id="u52228" href="https://deodatopr.github.io/deostools/Tools/3DeoViewerDoc.pdf" target="_blank"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u52230-4"><!-- content --><p class="shared_content" data-content-guid="u52230-4_0_content">PDF DOC</p></div></a>
          </div>
         </nav>
        </div>
       </div>
-     </div>
-     <div class="clearfix colelem" id="u52277"><!-- group -->
-      <nav class="MenuBar Btn-Style-2 clearfix grpelem" id="menuu51510"><!-- horizontal box -->
-       <div class="MenuItemContainer clearfix grpelem" id="u51511"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem" id="u51514" href="https://youtu.be/hoajXHOMvAA" target="_blank"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u51516-4"><!-- content --><p id="u51516-2">WATCH DEMO</p></div></a>
+      <div class="clearfix colelem" id="pmenuu51750"><!-- group -->
+       <nav class="MenuBar Btn-style-3 rounded-corners clearfix grpelem" id="menuu51750"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem" id="u51751"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 clearfix colelem" id="u51752" href="https://www.youtube.com/watch?v=uowv-ltUEEQ" target="_blank"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u51755-4"><!-- content --><p id="u51755-2" class="shared_content" data-content-guid="u51755-2_content">WATCH DEMO</p></div></a>
+        </div>
+       </nav>
+       <div class="clip_frame grpelem shared_content" id="u52066" data-content-guid="u52066_content"><!-- image -->
+        <img class="block temp_no_img_src" id="u52066_img" data-orig-src="images/youtube.png?crc=427528602" alt="" width="41" height="41" src="images/blank.gif?crc=4208392903"/>
        </div>
-      </nav>
-      <div class="clip_frame grpelem" id="u51857"><!-- image -->
-       <img class="block" id="u51857_img" src="images/youtube.png?crc=427528602" alt="" width="41" height="41"/>
       </div>
      </div>
-    </div>
-    <div class="clearfix grpelem" id="u52766"><!-- column -->
-     <div class="clearfix colelem" id="pmenuu52109"><!-- group -->
-      <nav class="MenuBar Btn-style-3 clearfix grpelem" id="menuu52109"><!-- horizontal box -->
-       <div class="MenuItemContainer clearfix grpelem" id="u52110"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 clearfix colelem" id="u52111" href="https://www.unrealengine.com/" target="_blank"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u52114-4"><!-- content --><p id="u52114-2">GET - UNREAL&nbsp; ENGINE</p></div></a>
+     <div class="clearfix grpelem" id="u52769"><!-- column -->
+      <div class="clearfix colelem" id="pmenuu1246"><!-- group -->
+       <nav class="MenuBar Btn-Style-2 clearfix grpelem" id="menuu1246"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem" id="u1247"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem" id="u1250" href="https://www.blender.org/download/" target="_blank"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u1253-4"><!-- content --><p class="shared_content" data-content-guid="u1253-4_0_content">GET - BLENDER</p></div></a>
+        </div>
+       </nav>
+       <div class="clip_frame grpelem shared_content" id="u52659" data-content-guid="u52659_content"><!-- image -->
+        <img class="block temp_no_img_src" id="u52659_img" data-orig-src="images/download.png?crc=248813801" alt="" width="41" height="41" src="images/blank.gif?crc=4208392903"/>
        </div>
-      </nav>
-      <div class="clip_frame grpelem" id="u52673"><!-- image -->
-       <img class="block" id="u52673_img" src="images/download.png?crc=248813801" alt="" width="41" height="41"/>
+      </div>
+      <div class="shadow rounded-corners clearfix colelem" id="u1014"><!-- column -->
+       <div class="position_content" id="u1014_position_content">
+        <div class="clearfix colelem shared_content" id="u1071-4" data-content-guid="u1071-4_content"><!-- content -->
+         <p>DEO's BLENDER TOOLS</p>
+        </div>
+        <div class="colelem shared_content" id="u1067" data-content-guid="u1067_content"><!-- simple frame --></div>
+        <div class="clearfix colelem shared_content" id="u1079-14" data-content-guid="u1079-14_content"><!-- content -->
+         <p id="u1079-2">A module to bake, texturing, export maps and more, similar to using&nbsp; Substance, also to create a smooth transition from other 3D software:</p>
+         <p id="u1079-3">&nbsp;</p>
+         <ul class="list0 nls-None" id="u1079-12">
+          <li id="u1079-5">Custom Layouts.</li>
+          <li id="u1079-7">Custom Shortcuts.</li>
+          <li id="u1079-9">Custom Settings.</li>
+          <li id="u1079-11">Useful Free Add-ons.</li>
+         </ul>
+        </div>
+        <div class="clearfix colelem" id="pmenuu1203"><!-- group -->
+         <nav class="MenuBar Btn-Style-2 rounded-corners clearfix grpelem" id="menuu1203"><!-- horizontal box -->
+          <div class="MenuItemContainer clearfix grpelem" id="u1204"><!-- vertical box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem" id="u1205" href="https://deodatopr.github.io/deostools/Tools/Deos_Blender_Tool.exe"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u1206-4"><!-- content --><p class="shared_content" data-content-guid="u1206-4_0_content">WIN</p></div></a>
+          </div>
+         </nav>
+         <nav class="MenuBar rounded-corners clearfix grpelem" id="menuu1195"><!-- horizontal box -->
+          <div class="MenuItemContainer clearfix grpelem" id="u1196"><!-- vertical box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix colelem" id="u1199" href="https://deodatopr.github.io/deostools/Tools/Deos_Blender_Tool.zip"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u1201-4"><!-- content --><p class="shared_content" data-content-guid="u1201-4_0_content">MAC</p></div></a>
+          </div>
+         </nav>
+        </div>
+       </div>
+      </div>
+      <div class="clearfix colelem" id="u52277"><!-- group -->
+       <nav class="MenuBar Btn-Style-2 clearfix grpelem" id="menuu51510"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem" id="u51511"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem" id="u51514" href="https://youtu.be/hoajXHOMvAA" target="_blank"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u51516-4"><!-- content --><p id="u51516-2" class="shared_content" data-content-guid="u51516-2_content">WATCH DEMO</p></div></a>
+        </div>
+       </nav>
+       <div class="clip_frame grpelem shared_content" id="u51857" data-content-guid="u51857_content"><!-- image -->
+        <img class="block temp_no_img_src" id="u51857_img" data-orig-src="images/youtube.png?crc=427528602" alt="" width="41" height="41" src="images/blank.gif?crc=4208392903"/>
+       </div>
       </div>
      </div>
-     <div class="shadow rounded-corners clearfix colelem" id="u52127"><!-- column -->
-      <div class="clearfix colelem" id="u52128-4"><!-- content -->
-       <p>DEO's UNREAL TOOLS</p>
+     <div class="clearfix grpelem" id="u52766"><!-- column -->
+      <div class="clearfix colelem" id="pmenuu52109"><!-- group -->
+       <nav class="MenuBar Btn-style-3 clearfix grpelem" id="menuu52109"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem" id="u52110"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 clearfix colelem" id="u52111" href="https://www.unrealengine.com/" target="_blank"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u52114-4"><!-- content --><p id="u52114-2" class="shared_content" data-content-guid="u52114-2_content">GET - UNREAL&nbsp; ENGINE</p></div></a>
+        </div>
+       </nav>
+       <div class="clip_frame grpelem shared_content" id="u52673" data-content-guid="u52673_content"><!-- image -->
+        <img class="block temp_no_img_src" id="u52673_img" data-orig-src="images/download.png?crc=248813801" alt="" width="41" height="41" src="images/blank.gif?crc=4208392903"/>
+       </div>
       </div>
-      <div class="colelem" id="u52129"><!-- simple frame --></div>
-      <div class="clearfix colelem" id="u52108-17"><!-- content -->
-       <p id="u52108-2">A pair of tools designed for Editor Mode in Unreal Engine, enabling Environment and Level Artists to accelerate object propagation and randomization within scenes.</p>
-       <p id="u52108-3">&nbsp;</p>
-       <p id="u52108-4">&nbsp;</p>
-       <p id="u52108-9"><span id="u52108-5">+</span><span id="u52108-6"> </span><span id="u52108-7">Randomizer Tool:</span><span id="u52108-8"> Allows you to randomize multiple objects in one go in a natural way.</span></p>
-       <p id="u52108-10">&nbsp;</p>
-       <p id="u52108-15"><span id="u52108-11">+</span><span id="u52108-12"> </span><span id="u52108-13">Prop-a-Gator Tool:</span><span id="u52108-14"> Allows you to scatter or propagate objects on surfaces in an incredible way, with multiple options to set it up.</span></p>
-      </div>
-      <nav class="MenuBar Btn-Style-2 clearfix colelem" id="menuu52130"><!-- horizontal box -->
-       <div class="MenuItemContainer clearfix grpelem" id="u52131"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem" id="u52134" href="https://deodatopr.github.io/deostools/Tools/Deos_Unreal_Tool.zip"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u52137-4"><!-- content --><p>WIN / MAC</p></div></a>
+      <div class="shadow rounded-corners clearfix colelem" id="u52127"><!-- column -->
+       <div class="clearfix colelem shared_content" id="u52128-4" data-content-guid="u52128-4_content"><!-- content -->
+        <p>DEO's UNREAL TOOLS</p>
        </div>
-      </nav>
-     </div>
-     <div class="clearfix colelem" id="u52274"><!-- group -->
-      <nav class="MenuBar Btn-style-3 clearfix grpelem" id="menuu52117"><!-- horizontal box -->
-       <div class="MenuItemContainer clearfix grpelem" id="u52118"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 clearfix colelem" id="u52119" href="https://youtu.be/fklT3mGh5sY" target="_blank"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u52121-4"><!-- content --><p id="u52121-2">WATCH DEMO</p></div></a>
+       <div class="colelem shared_content" id="u52129" data-content-guid="u52129_content"><!-- simple frame --></div>
+       <div class="clearfix colelem shared_content" id="u52108-17" data-content-guid="u52108-17_content"><!-- content -->
+        <p id="u52108-2">A pair of tools designed for Editor Mode in Unreal Engine, enabling Environment and Level Artists to accelerate object propagation and randomization within scenes.</p>
+        <p id="u52108-3">&nbsp;</p>
+        <p id="u52108-4">&nbsp;</p>
+        <p id="u52108-9"><span id="u52108-5">+</span><span id="u52108-6"> </span><span id="u52108-7">Randomizer Tool:</span><span id="u52108-8"> Allows you to randomize multiple objects in one go in a natural way.</span></p>
+        <p id="u52108-10">&nbsp;</p>
+        <p id="u52108-15"><span id="u52108-11">+</span><span id="u52108-12"> </span><span id="u52108-13">Prop-a-Gator Tool:</span><span id="u52108-14"> Allows you to scatter or propagate objects on surfaces in an incredible way, with multiple options to set it up.</span></p>
        </div>
-      </nav>
-      <div class="clip_frame grpelem" id="u52125"><!-- image -->
-       <img class="block" id="u52125_img" src="images/youtube.png?crc=427528602" alt="" width="41" height="41"/>
-      </div>
-     </div>
-    </div>
-    <div class="clearfix grpelem" id="u52760"><!-- column -->
-     <div class="clearfix colelem" id="pmenuu1282"><!-- group -->
-      <nav class="MenuBar Btn-style-3 clearfix grpelem" id="menuu1282"><!-- horizontal box -->
-       <div class="MenuItemContainer clearfix grpelem" id="u1283"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem" id="u1284" href="https://www.gimp.org/downloads/" target="_blank"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u1287-4"><!-- content --><p>GET - GIMP</p></div></a>
-       </div>
-      </nav>
-      <div class="clip_frame grpelem" id="u52687"><!-- image -->
-       <img class="block" id="u52687_img" src="images/download.png?crc=248813801" alt="" width="41" height="41"/>
-      </div>
-     </div>
-     <div class="shadow rounded-corners clearfix colelem" id="u1308"><!-- column -->
-      <div class="position_content" id="u1308_position_content">
-       <div class="clearfix colelem" id="u1307-4"><!-- content -->
-        <p>DEO's GIMP TOOLS</p>
-       </div>
-       <div class="colelem" id="u1281"><!-- simple frame --></div>
-       <div class="clearfix colelem" id="u1290-20"><!-- content -->
-        <p id="u1290-2">A Kit of tools to speed up process:</p>
-        <p id="u1290-3">&nbsp;</p>
-        <ul class="list0 nls-None" id="u1290-18">
-         <li id="u1290-5">De-Light Textures.</li>
-         <li id="u1290-7">Multi-layer Normal Map.</li>
-         <li id="u1290-9">Normal to Curvature.</li>
-         <li id="u1290-11">Propagate UV Padding.</li>
-         <li id="u1290-13">Custom Layouts.</li>
-         <li id="u1290-15">Custom Shortcuts.</li>
-         <li id="u1290-17">Custom Settings.</li>
-        </ul>
-       </div>
-       <nav class="MenuBar Btn-Style-2 rounded-corners clearfix colelem" id="menuu46914"><!-- horizontal box -->
-        <div class="MenuItemContainer clearfix grpelem" id="u46915"><!-- vertical box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem" id="u46916" href="https://deodatopr.github.io/deostools/Tools/Deos_Gimp_Tool.zip"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u46919-4"><!-- content --><p>WIN / MAC</p></div></a>
+       <nav class="MenuBar Btn-Style-2 clearfix colelem" id="menuu52130"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem" id="u52131"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem" id="u52134" href="https://deodatopr.github.io/deostools/Tools/Deos_Unreal_Tool.zip"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u52137-4"><!-- content --><p class="shared_content" data-content-guid="u52137-4_0_content">WIN / MAC</p></div></a>
         </div>
        </nav>
       </div>
-     </div>
-     <div class="clearfix colelem" id="u52271"><!-- group -->
-      <nav class="MenuBar Btn-style-3 clearfix grpelem" id="menuu51582"><!-- horizontal box -->
-       <div class="MenuItemContainer clearfix grpelem" id="u51583"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem" id="u51586" href="https://youtu.be/-axuBo3Y6pY" target="_blank"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u51589-4"><!-- content --><p id="u51589-2">WATCH DEMO</p></div></a>
+      <div class="clearfix colelem" id="u52274"><!-- group -->
+       <nav class="MenuBar Btn-style-3 clearfix grpelem" id="menuu52117"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem" id="u52118"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 clearfix colelem" id="u52119" href="https://youtu.be/fklT3mGh5sY" target="_blank"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u52121-4"><!-- content --><p id="u52121-2" class="shared_content" data-content-guid="u52121-2_content">WATCH DEMO</p></div></a>
+        </div>
+       </nav>
+       <div class="clip_frame grpelem shared_content" id="u52125" data-content-guid="u52125_content"><!-- image -->
+        <img class="block temp_no_img_src" id="u52125_img" data-orig-src="images/youtube.png?crc=427528602" alt="" width="41" height="41" src="images/blank.gif?crc=4208392903"/>
        </div>
-      </nav>
-      <div class="clip_frame grpelem" id="u51900"><!-- image -->
-       <img class="block" id="u51900_img" src="images/youtube.png?crc=427528602" alt="" width="41" height="41"/>
+      </div>
+     </div>
+     <div class="clearfix grpelem" id="u52760"><!-- column -->
+      <div class="clearfix colelem" id="pmenuu1282"><!-- group -->
+       <nav class="MenuBar Btn-style-3 clearfix grpelem" id="menuu1282"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem" id="u1283"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem" id="u1284" href="https://www.gimp.org/downloads/" target="_blank"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u1287-4"><!-- content --><p class="shared_content" data-content-guid="u1287-4_0_content">GET - GIMP</p></div></a>
+        </div>
+       </nav>
+       <div class="clip_frame grpelem shared_content" id="u52687" data-content-guid="u52687_content"><!-- image -->
+        <img class="block temp_no_img_src" id="u52687_img" data-orig-src="images/download.png?crc=248813801" alt="" width="41" height="41" src="images/blank.gif?crc=4208392903"/>
+       </div>
+      </div>
+      <div class="shadow rounded-corners clearfix colelem" id="u1308"><!-- column -->
+       <div class="position_content" id="u1308_position_content">
+        <div class="clearfix colelem shared_content" id="u1307-4" data-content-guid="u1307-4_content"><!-- content -->
+         <p>DEO's GIMP TOOLS</p>
+        </div>
+        <div class="colelem shared_content" id="u1281" data-content-guid="u1281_content"><!-- simple frame --></div>
+        <div class="clearfix colelem shared_content" id="u1290-20" data-content-guid="u1290-20_content"><!-- content -->
+         <p id="u1290-2">A Kit of tools to speed up process:</p>
+         <p id="u1290-3">&nbsp;</p>
+         <ul class="list0 nls-None" id="u1290-18">
+          <li id="u1290-5">De-Light Textures.</li>
+          <li id="u1290-7">Multi-layer Normal Map.</li>
+          <li id="u1290-9">Normal to Curvature.</li>
+          <li id="u1290-11">Propagate UV Padding.</li>
+          <li id="u1290-13">Custom Layouts.</li>
+          <li id="u1290-15">Custom Shortcuts.</li>
+          <li id="u1290-17">Custom Settings.</li>
+         </ul>
+        </div>
+        <nav class="MenuBar Btn-Style-2 rounded-corners clearfix colelem" id="menuu46914"><!-- horizontal box -->
+         <div class="MenuItemContainer clearfix grpelem" id="u46915"><!-- vertical box -->
+          <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem" id="u46916" href="https://deodatopr.github.io/deostools/Tools/Deos_Gimp_Tool.zip"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u46919-4"><!-- content --><p class="shared_content" data-content-guid="u46919-4_0_content">WIN / MAC</p></div></a>
+         </div>
+        </nav>
+       </div>
+      </div>
+      <div class="clearfix colelem" id="u52271"><!-- group -->
+       <nav class="MenuBar Btn-style-3 clearfix grpelem" id="menuu51582"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem" id="u51583"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem" id="u51586" href="https://youtu.be/-axuBo3Y6pY" target="_blank"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u51589-4"><!-- content --><p id="u51589-2" class="shared_content" data-content-guid="u51589-2_content">WATCH DEMO</p></div></a>
+        </div>
+       </nav>
+       <div class="clip_frame grpelem shared_content" id="u51900" data-content-guid="u51900_content"><!-- image -->
+        <img class="block temp_no_img_src" id="u51900_img" data-orig-src="images/youtube.png?crc=427528602" alt="" width="41" height="41" src="images/blank.gif?crc=4208392903"/>
+       </div>
+      </div>
+     </div>
+     <div class="clearfix grpelem" id="u52757"><!-- column -->
+      <div class="clearfix colelem" id="pmenuu52409"><!-- group -->
+       <nav class="MenuBar Btn-style-3 clearfix grpelem" id="menuu52409"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem" id="u52410"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem" id="u52411" href="https://helpx.adobe.com/substance-3d-player/home.html" target="_blank"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u52412-4"><!-- content --><p class="shared_content" data-content-guid="u52412-4_0_content">GET - SUBSTANCE PLAYER</p></div></a>
+        </div>
+       </nav>
+       <div class="clip_frame grpelem shared_content" id="u52701" data-content-guid="u52701_content"><!-- image -->
+        <img class="block temp_no_img_src" id="u52701_img" data-orig-src="images/download.png?crc=248813801" alt="" width="41" height="41" src="images/blank.gif?crc=4208392903"/>
+       </div>
+      </div>
+      <div class="shadow rounded-corners clearfix colelem" id="u1387"><!-- column -->
+       <div class="position_content" id="u1387_position_content">
+        <div class="clearfix colelem shared_content" id="u1399-4" data-content-guid="u1399-4_content"><!-- content -->
+         <p>DEO's PBR MAPS TOOL</p>
+        </div>
+        <div class="colelem shared_content" id="u1389" data-content-guid="u1389_content"><!-- simple frame --></div>
+        <div class="clearfix colelem shared_content" id="u1390-18" data-content-guid="u1390-18_content"><!-- content -->
+         <p id="u1390-2">A set of tools built on the framework of Substance Player to generate complete PBR maps using just a single color texture:</p>
+         <p id="u1390-3">&nbsp;</p>
+         <ul class="list0 nls-None" id="u1390-16">
+          <li id="u1390-5">Color Equilizer.</li>
+          <li id="u1390-7">Color Correction.</li>
+          <li id="u1390-9">Make Tileable.</li>
+          <li id="u1390-11">Create Normal Map.</li>
+          <li id="u1390-13">Create Roughness Map.</li>
+          <li id="u1390-15">Height, AO, Curvature Maps.</li>
+         </ul>
+        </div>
+        <nav class="MenuBar Btn-Style-2 clearfix colelem" id="menuu1371"><!-- horizontal box -->
+         <div class="MenuItemContainer clearfix grpelem" id="u1372"><!-- vertical box -->
+          <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem" id="u1373" href="https://deodatopr.github.io/deostools/Tools/Deos_PBRMap_Tool.sbsar"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u1376-4"><!-- content --><p class="shared_content" data-content-guid="u1376-4_0_content">WIN / MAC</p></div></a>
+         </div>
+        </nav>
+       </div>
+      </div>
+      <div class="clearfix colelem" id="u52322"><!-- group -->
+       <nav class="MenuBar Btn-style-3 clearfix grpelem" id="menuu51638"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem" id="u51639"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 clearfix colelem" id="u51642" href="https://youtu.be/GtuZ1Dbcm2c" target="_blank"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u51644-4"><!-- content --><p id="u51644-2" class="shared_content" data-content-guid="u51644-2_content">WATCH DEMO</p></div></a>
+        </div>
+       </nav>
+       <div class="clip_frame grpelem shared_content" id="u51934" data-content-guid="u51934_content"><!-- image -->
+        <img class="block temp_no_img_src" id="u51934_img" data-orig-src="images/youtube.png?crc=427528602" alt="" width="41" height="41" src="images/blank.gif?crc=4208392903"/>
+       </div>
       </div>
      </div>
     </div>
-    <div class="clearfix grpelem" id="u52757"><!-- column -->
-     <div class="clearfix colelem" id="pmenuu52409"><!-- group -->
-      <nav class="MenuBar Btn-style-3 clearfix grpelem" id="menuu52409"><!-- horizontal box -->
-       <div class="MenuItemContainer clearfix grpelem" id="u52410"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem" id="u52411" href="https://helpx.adobe.com/substance-3d-player/home.html" target="_blank"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u52412-4"><!-- content --><p>GET - SUBSTANCE PLAYER</p></div></a>
-       </div>
-      </nav>
-      <div class="clip_frame grpelem" id="u52701"><!-- image -->
-       <img class="block" id="u52701_img" src="images/download.png?crc=248813801" alt="" width="41" height="41"/>
-      </div>
+    <div class="clearfix colelem shared_content" id="pu3190" data-content-guid="pu3190_content"><!-- group -->
+     <div class="browser_width grpelem" id="u3190-bw">
+      <div id="u3190"><!-- simple frame --></div>
      </div>
-     <div class="shadow rounded-corners clearfix colelem" id="u1387"><!-- column -->
-      <div class="position_content" id="u1387_position_content">
-       <div class="clearfix colelem" id="u1399-4"><!-- content -->
-        <p>DEO's PBR MAPS TOOL</p>
-       </div>
-       <div class="colelem" id="u1389"><!-- simple frame --></div>
-       <div class="clearfix colelem" id="u1390-18"><!-- content -->
-        <p id="u1390-2">A set of tools built on the framework of Substance Player to generate complete PBR maps using just a single color texture:</p>
-        <p id="u1390-3">&nbsp;</p>
-        <ul class="list0 nls-None" id="u1390-16">
-         <li id="u1390-5">Color Equilizer.</li>
-         <li id="u1390-7">Color Correction.</li>
-         <li id="u1390-9">Make Tileable.</li>
-         <li id="u1390-11">Create Normal Map.</li>
-         <li id="u1390-13">Create Roughness Map.</li>
-         <li id="u1390-15">Height, AO, Curvature Maps.</li>
-        </ul>
-       </div>
-       <nav class="MenuBar Btn-Style-2 clearfix colelem" id="menuu1371"><!-- horizontal box -->
-        <div class="MenuItemContainer clearfix grpelem" id="u1372"><!-- vertical box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem" id="u1373" href="https://deodatopr.github.io/deostools/Tools/Deos_PBRMap_Tool.sbsar"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u1376-4"><!-- content --><p>WIN / MAC</p></div></a>
-        </div>
-       </nav>
-      </div>
-     </div>
-     <div class="clearfix colelem" id="u52322"><!-- group -->
-      <nav class="MenuBar Btn-style-3 clearfix grpelem" id="menuu51638"><!-- horizontal box -->
-       <div class="MenuItemContainer clearfix grpelem" id="u51639"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 clearfix colelem" id="u51642" href="https://youtu.be/GtuZ1Dbcm2c" target="_blank"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u51644-4"><!-- content --><p id="u51644-2">WATCH DEMO</p></div></a>
-       </div>
-      </nav>
-      <div class="clip_frame grpelem" id="u51934"><!-- image -->
-       <img class="block" id="u51934_img" src="images/youtube.png?crc=427528602" alt="" width="41" height="41"/>
+     <div class="browser_width grpelem" id="u11648-6-bw">
+      <div class="clearfix" id="u11648-6"><!-- content -->
+       <p id="u11648-2">[ DEO'S TOOLS ]</p>
+       <p id="u11648-4">- Free Tools to Speed up your Artistic Process -</p>
       </div>
      </div>
     </div>
    </div>
-   <div class="clearfix colelem" id="pu3190"><!-- group -->
-    <div class="browser_width grpelem" id="u3190-bw">
-     <div id="u3190"><!-- simple frame --></div>
+  </div>
+  <div class="breakpoint" id="bp_1280" data-max-width="1280"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
+    <div class="clearfix colelem temp_no_id" data-orig-id="pu52500"><!-- group -->
+     <div class="browser_width grpelem temp_no_id" data-orig-id="u52500-bw">
+      <div class="temp_no_id" data-orig-id="u52500"><!-- group -->
+       <div class="clearfix temp_no_id" data-orig-id="u52500_align_to_page">
+        <div class="clearfix grpelem temp_no_id" data-orig-id="u44892"><!-- group -->
+         <span class="grpelem placeholder" data-placeholder-for="u52514_content"><!-- placeholder node --></span>
+         <img class="grpelem temp_no_id temp_no_img_src" alt="DEO's TOOLs" width="550" height="75" data-orig-src="images/u11444-82.png?crc=4039779438" data-orig-id="u11444-8" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+         <span class="grpelem placeholder" data-placeholder-for="u52403_content"><!-- placeholder node --></span>
+        </div>
+       </div>
+      </div>
+     </div>
+     <span class="browser_width grpelem placeholder" data-placeholder-for="u1635-bw_content"><!-- placeholder node --></span>
+     <span class="clip_frame grpelem placeholder" data-placeholder-for="u46867_content"><!-- placeholder node --></span>
     </div>
-    <div class="browser_width grpelem" id="u11648-6-bw">
-     <div class="clearfix" id="u11648-6"><!-- content -->
-      <p id="u11648-2">[ DEO'S TOOLS ]</p>
-      <p id="u11648-4">- Free Tools to Speed up your Artistic Process -</p>
+    <div class="clearfix colelem temp_no_id" data-orig-id="pu2098"><!-- group -->
+     <span class="browser_width grpelem placeholder" data-placeholder-for="u2098-bw_content"><!-- placeholder node --></span>
+     <span class="browser_width grpelem placeholder" data-placeholder-for="u48228-bw_content"><!-- placeholder node --></span>
+     <span class="browser_width grpelem placeholder" data-placeholder-for="u52463-bw_content"><!-- placeholder node --></span>
+     <span class="browser_width grpelem placeholder" data-placeholder-for="u52475-bw_content"><!-- placeholder node --></span>
+     <span class="browser_width grpelem placeholder" data-placeholder-for="u52457-bw_content"><!-- placeholder node --></span>
+     <div class="clearfix grpelem temp_no_id" data-orig-id="u52754"><!-- column -->
+      <div class="clearfix colelem temp_no_id" data-orig-id="pmenuu47709"><!-- group -->
+       <nav class="MenuBar Btn-style-3 clearfix grpelem temp_no_id" data-orig-id="menuu47709"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u47710"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners Btn-Style-1 clearfix colelem temp_no_id" href="https://drive.google.com/drive/folders/1V9dQwIbLWNVZhw-EKstvbXyZkBDs6GHU?usp=sharing" target="_blank" data-orig-id="u47711"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem temp_no_id" data-orig-id="u47713-4"><!-- content --><span class="placeholder" data-placeholder-for="u47713-2_content"><!-- placeholder node --></span></div></a>
+        </div>
+       </nav>
+       <span class="clip_frame grpelem placeholder" data-placeholder-for="u52544_content"><!-- placeholder node --></span>
+      </div>
+      <div class="shadow rounded-corners clearfix colelem temp_no_id" data-orig-id="u47717"><!-- column -->
+       <span class="clearfix colelem placeholder" data-placeholder-for="u47718-4_content"><!-- placeholder node --></span>
+       <span class="colelem placeholder" data-placeholder-for="u47700_content"><!-- placeholder node --></span>
+       <span class="clearfix colelem placeholder" data-placeholder-for="u47699-11_content"><!-- placeholder node --></span>
+       <div class="clearfix colelem temp_no_id" data-orig-id="pmenuu47701"><!-- group -->
+        <nav class="MenuBar Btn-Style-2 rounded-corners clearfix grpelem temp_no_id" data-orig-id="menuu47701"><!-- horizontal box -->
+         <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u47702"><!-- vertical box -->
+          <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem temp_no_id" href="https://deodatopr.github.io/deostools/Tools/3DeoViewer.zip" data-orig-id="u47703"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem temp_no_id" data-orig-id="u47706-4"><!-- content --><span class="placeholder" data-placeholder-for="u47706-4_0_content"><!-- placeholder node --></span></div></a>
+         </div>
+        </nav>
+        <nav class="MenuBar clearfix grpelem temp_no_id" data-orig-id="menuu52226"><!-- horizontal box -->
+         <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u52227"><!-- vertical box -->
+          <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem temp_no_id" href="https://deodatopr.github.io/deostools/Tools/3DeoViewerDoc.pdf" target="_blank" data-orig-id="u52228"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem temp_no_id" data-orig-id="u52230-4"><!-- content --><span class="placeholder" data-placeholder-for="u52230-4_0_content"><!-- placeholder node --></span></div></a>
+         </div>
+        </nav>
+       </div>
+      </div>
+      <div class="clearfix colelem temp_no_id" data-orig-id="pmenuu51750"><!-- group -->
+       <nav class="MenuBar Btn-style-3 rounded-corners clearfix grpelem temp_no_id" data-orig-id="menuu51750"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u51751"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 clearfix colelem temp_no_id" href="https://www.youtube.com/watch?v=uowv-ltUEEQ" target="_blank" data-orig-id="u51752"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem temp_no_id" data-orig-id="u51755-4"><!-- content --><span class="placeholder" data-placeholder-for="u51755-2_content"><!-- placeholder node --></span></div></a>
+        </div>
+       </nav>
+       <span class="clip_frame grpelem placeholder" data-placeholder-for="u52066_content"><!-- placeholder node --></span>
+      </div>
+     </div>
+     <div class="clearfix grpelem temp_no_id" data-orig-id="u52769"><!-- column -->
+      <div class="clearfix colelem temp_no_id" data-orig-id="pmenuu1246"><!-- group -->
+       <nav class="MenuBar Btn-Style-2 clearfix grpelem temp_no_id" data-orig-id="menuu1246"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u1247"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem temp_no_id" href="https://www.blender.org/download/" target="_blank" data-orig-id="u1250"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem temp_no_id" data-orig-id="u1253-4"><!-- content --><span class="placeholder" data-placeholder-for="u1253-4_0_content"><!-- placeholder node --></span></div></a>
+        </div>
+       </nav>
+       <span class="clip_frame grpelem placeholder" data-placeholder-for="u52659_content"><!-- placeholder node --></span>
+      </div>
+      <div class="shadow rounded-corners clearfix colelem temp_no_id" data-orig-id="u1014"><!-- column -->
+       <div class="position_content temp_no_id" data-orig-id="u1014_position_content">
+        <span class="clearfix colelem placeholder" data-placeholder-for="u1071-4_content"><!-- placeholder node --></span>
+        <span class="colelem placeholder" data-placeholder-for="u1067_content"><!-- placeholder node --></span>
+        <span class="clearfix colelem placeholder" data-placeholder-for="u1079-14_content"><!-- placeholder node --></span>
+        <div class="clearfix colelem temp_no_id" data-orig-id="pmenuu1203"><!-- group -->
+         <nav class="MenuBar Btn-Style-2 rounded-corners clearfix grpelem temp_no_id" data-orig-id="menuu1203"><!-- horizontal box -->
+          <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u1204"><!-- vertical box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem temp_no_id" href="https://deodatopr.github.io/deostools/Tools/Deos_Blender_Tool.exe" data-orig-id="u1205"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem temp_no_id" data-orig-id="u1206-4"><!-- content --><span class="placeholder" data-placeholder-for="u1206-4_0_content"><!-- placeholder node --></span></div></a>
+          </div>
+         </nav>
+         <nav class="MenuBar rounded-corners clearfix grpelem temp_no_id" data-orig-id="menuu1195"><!-- horizontal box -->
+          <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u1196"><!-- vertical box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix colelem temp_no_id" href="https://deodatopr.github.io/deostools/Tools/Deos_Blender_Tool.zip" data-orig-id="u1199"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem temp_no_id" data-orig-id="u1201-4"><!-- content --><span class="placeholder" data-placeholder-for="u1201-4_0_content"><!-- placeholder node --></span></div></a>
+          </div>
+         </nav>
+        </div>
+       </div>
+      </div>
+      <div class="clearfix colelem temp_no_id" data-orig-id="u52277"><!-- group -->
+       <nav class="MenuBar Btn-Style-2 clearfix grpelem temp_no_id" data-orig-id="menuu51510"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u51511"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem temp_no_id" href="https://youtu.be/hoajXHOMvAA" target="_blank" data-orig-id="u51514"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem temp_no_id" data-orig-id="u51516-4"><!-- content --><span class="placeholder" data-placeholder-for="u51516-2_content"><!-- placeholder node --></span></div></a>
+        </div>
+       </nav>
+       <span class="clip_frame grpelem placeholder" data-placeholder-for="u51857_content"><!-- placeholder node --></span>
+      </div>
+     </div>
+     <div class="clearfix grpelem temp_no_id" data-orig-id="u52766"><!-- column -->
+      <div class="clearfix colelem temp_no_id" data-orig-id="pmenuu52109"><!-- group -->
+       <nav class="MenuBar Btn-style-3 clearfix grpelem temp_no_id" data-orig-id="menuu52109"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u52110"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 clearfix colelem temp_no_id" href="https://www.unrealengine.com/" target="_blank" data-orig-id="u52111"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem temp_no_id" data-orig-id="u52114-4"><!-- content --><span class="placeholder" data-placeholder-for="u52114-2_content"><!-- placeholder node --></span></div></a>
+        </div>
+       </nav>
+       <span class="clip_frame grpelem placeholder" data-placeholder-for="u52673_content"><!-- placeholder node --></span>
+      </div>
+      <div class="shadow rounded-corners clearfix colelem temp_no_id" data-orig-id="u52127"><!-- column -->
+       <span class="clearfix colelem placeholder" data-placeholder-for="u52128-4_content"><!-- placeholder node --></span>
+       <span class="colelem placeholder" data-placeholder-for="u52129_content"><!-- placeholder node --></span>
+       <span class="clearfix colelem placeholder" data-placeholder-for="u52108-17_content"><!-- placeholder node --></span>
+       <nav class="MenuBar Btn-Style-2 clearfix colelem temp_no_id" data-orig-id="menuu52130"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u52131"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem temp_no_id" href="https://deodatopr.github.io/deostools/Tools/Deos_Unreal_Tool.zip" data-orig-id="u52134"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem temp_no_id" data-orig-id="u52137-4"><!-- content --><span class="placeholder" data-placeholder-for="u52137-4_0_content"><!-- placeholder node --></span></div></a>
+        </div>
+       </nav>
+      </div>
+      <div class="clearfix colelem temp_no_id" data-orig-id="u52274"><!-- group -->
+       <nav class="MenuBar Btn-style-3 clearfix grpelem temp_no_id" data-orig-id="menuu52117"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u52118"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 clearfix colelem temp_no_id" href="https://youtu.be/fklT3mGh5sY" target="_blank" data-orig-id="u52119"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem temp_no_id" data-orig-id="u52121-4"><!-- content --><span class="placeholder" data-placeholder-for="u52121-2_content"><!-- placeholder node --></span></div></a>
+        </div>
+       </nav>
+       <span class="clip_frame grpelem placeholder" data-placeholder-for="u52125_content"><!-- placeholder node --></span>
+      </div>
      </div>
     </div>
+    <span class="browser_width colelem placeholder" data-placeholder-for="u52481-bw_content"><!-- placeholder node --></span>
+    <div class="clearfix colelem" id="pu53023"><!-- group -->
+     <div class="browser_width grpelem" id="u53023-bw">
+      <div id="u53023"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u53017-bw">
+      <div id="u53017"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u52988-bw">
+      <div id="u52988"><!-- simple frame --></div>
+     </div>
+     <span class="browser_width grpelem placeholder" data-placeholder-for="u53000-bw_content"><!-- placeholder node --></span>
+     <div class="clearfix grpelem temp_no_id" data-orig-id="u52760"><!-- column -->
+      <div class="clearfix colelem temp_no_id" data-orig-id="pmenuu1282"><!-- group -->
+       <nav class="MenuBar Btn-style-3 clearfix grpelem temp_no_id" data-orig-id="menuu1282"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u1283"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem temp_no_id" href="https://www.gimp.org/downloads/" target="_blank" data-orig-id="u1284"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem temp_no_id" data-orig-id="u1287-4"><!-- content --><span class="placeholder" data-placeholder-for="u1287-4_0_content"><!-- placeholder node --></span></div></a>
+        </div>
+       </nav>
+       <span class="clip_frame grpelem placeholder" data-placeholder-for="u52687_content"><!-- placeholder node --></span>
+      </div>
+      <div class="shadow rounded-corners clearfix colelem temp_no_id" data-orig-id="u1308"><!-- column -->
+       <div class="position_content temp_no_id" data-orig-id="u1308_position_content">
+        <span class="clearfix colelem placeholder" data-placeholder-for="u1307-4_content"><!-- placeholder node --></span>
+        <span class="colelem placeholder" data-placeholder-for="u1281_content"><!-- placeholder node --></span>
+        <span class="clearfix colelem placeholder" data-placeholder-for="u1290-20_content"><!-- placeholder node --></span>
+        <nav class="MenuBar Btn-Style-2 rounded-corners clearfix colelem temp_no_id" data-orig-id="menuu46914"><!-- horizontal box -->
+         <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u46915"><!-- vertical box -->
+          <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem temp_no_id" href="https://deodatopr.github.io/deostools/Tools/Deos_Gimp_Tool.zip" data-orig-id="u46916"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem temp_no_id" data-orig-id="u46919-4"><!-- content --><span class="placeholder" data-placeholder-for="u46919-4_0_content"><!-- placeholder node --></span></div></a>
+         </div>
+        </nav>
+       </div>
+      </div>
+      <div class="clearfix colelem temp_no_id" data-orig-id="u52271"><!-- group -->
+       <nav class="MenuBar Btn-style-3 clearfix grpelem temp_no_id" data-orig-id="menuu51582"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u51583"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem temp_no_id" href="https://youtu.be/-axuBo3Y6pY" target="_blank" data-orig-id="u51586"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem temp_no_id" data-orig-id="u51589-4"><!-- content --><span class="placeholder" data-placeholder-for="u51589-2_content"><!-- placeholder node --></span></div></a>
+        </div>
+       </nav>
+       <span class="clip_frame grpelem placeholder" data-placeholder-for="u51900_content"><!-- placeholder node --></span>
+      </div>
+     </div>
+     <div class="clearfix grpelem temp_no_id" data-orig-id="u52757"><!-- column -->
+      <div class="clearfix colelem temp_no_id" data-orig-id="pmenuu52409"><!-- group -->
+       <nav class="MenuBar Btn-style-3 clearfix grpelem temp_no_id" data-orig-id="menuu52409"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u52410"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem temp_no_id" href="https://helpx.adobe.com/substance-3d-player/home.html" target="_blank" data-orig-id="u52411"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem temp_no_id" data-orig-id="u52412-4"><!-- content --><span class="placeholder" data-placeholder-for="u52412-4_0_content"><!-- placeholder node --></span></div></a>
+        </div>
+       </nav>
+       <span class="clip_frame grpelem placeholder" data-placeholder-for="u52701_content"><!-- placeholder node --></span>
+      </div>
+      <div class="shadow rounded-corners clearfix colelem temp_no_id" data-orig-id="u1387"><!-- column -->
+       <div class="position_content temp_no_id" data-orig-id="u1387_position_content">
+        <span class="clearfix colelem placeholder" data-placeholder-for="u1399-4_content"><!-- placeholder node --></span>
+        <span class="colelem placeholder" data-placeholder-for="u1389_content"><!-- placeholder node --></span>
+        <span class="clearfix colelem placeholder" data-placeholder-for="u1390-18_content"><!-- placeholder node --></span>
+        <nav class="MenuBar Btn-Style-2 clearfix colelem temp_no_id" data-orig-id="menuu1371"><!-- horizontal box -->
+         <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u1372"><!-- vertical box -->
+          <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 rounded-corners clearfix colelem temp_no_id" href="https://deodatopr.github.io/deostools/Tools/Deos_PBRMap_Tool.sbsar" data-orig-id="u1373"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem temp_no_id" data-orig-id="u1376-4"><!-- content --><span class="placeholder" data-placeholder-for="u1376-4_0_content"><!-- placeholder node --></span></div></a>
+         </div>
+        </nav>
+       </div>
+      </div>
+      <div class="clearfix colelem temp_no_id" data-orig-id="u52322"><!-- group -->
+       <nav class="MenuBar Btn-style-3 clearfix grpelem temp_no_id" data-orig-id="menuu51638"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u51639"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu Btn-Style-1 clearfix colelem temp_no_id" href="https://youtu.be/GtuZ1Dbcm2c" target="_blank" data-orig-id="u51642"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem temp_no_id" data-orig-id="u51644-4"><!-- content --><span class="placeholder" data-placeholder-for="u51644-2_content"><!-- placeholder node --></span></div></a>
+        </div>
+       </nav>
+       <span class="clip_frame grpelem placeholder" data-placeholder-for="u51934_content"><!-- placeholder node --></span>
+      </div>
+     </div>
+    </div>
+    <span class="clearfix colelem placeholder" data-placeholder-for="pu3190_content"><!-- placeholder node --></span>
    </div>
   </div>
   <!-- Other scripts -->
@@ -342,14 +551,14 @@ var suppressMissingFileError = false
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.musemenu"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.musemenu","jquery.museresponsive"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
-Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
-Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_1280'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+$( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
 
